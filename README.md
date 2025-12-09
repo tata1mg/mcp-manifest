@@ -42,6 +42,8 @@ Add the following configuration to your `mcp.json` file for Claude Desktop, VSCo
 }
 ```
 
+## NOTE - Please use equivalent timeouts as some tools will monitor for specific flows and return in a slightly longer amount of time. Example, polling for UPI transactions.
+
 ### Alternative Configurations
 
 You can adapt the configuration depending on your environment or if you prefer running `npx` directly without a shell wrapper.
