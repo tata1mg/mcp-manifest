@@ -87,7 +87,7 @@ Make sure **Node.js** and **npx** are installed and updated regardless of the me
 
 ### Notes
 
-**Claude Desktop Free users:** Enable custom MCP connectors using: `Connect Local Servers`
+**Claude Desktop Free users:** Enable custom MCP connectors using: [Connect Local Servers](https://modelcontextprotocol.io/docs/develop/connect-local-servers)
 
 **ChatGPT Plus & Pro Users:** Connect directly via `https://mcp.1mg.com/mcp`  
 Follow OpenAI’s guide: [**Connectors in ChatGPT**](https://help.openai.com/en/articles/11487775-connectors-in-chatgpt)
@@ -98,4 +98,4 @@ After configuring and restarting your client, you will be guided to authorize yo
 
 * Clear cookies or local storage if experiencing connection issues in browser clients.
 * Some older MCP clients may not support the required protocol specification.
-* ChatGPT requires OAuth mode; no client ID or secret is needed.
+* Clients require OAuth mode; no client ID or secret is needed. Make sure you enable this in ChatGPT while connecting.
