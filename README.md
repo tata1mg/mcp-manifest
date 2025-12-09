@@ -42,7 +42,7 @@ Add the following configuration to your `mcp.json` file for Claude Desktop, VSCo
 }
 ```
 
-## NOTE - Please use equivalent timeouts as some tools will monitor for specific flows and return in a slightly longer amount of time. Example, polling for UPI transactions.
+### NOTE - Please use equivalent timeouts as some tools will monitor for specific flows and return in a slightly longer amount of time. Example, polling for UPI transactions.
 
 ### Alternative Configurations
 
@@ -90,7 +90,7 @@ Make sure **Node.js** and **npx** are installed and updated regardless of the me
 **Claude Desktop Free users:** Enable custom MCP connectors using: `Connect Local Servers`
 
 **ChatGPT Plus & Pro Users:** Connect directly via `https://mcp.1mg.com/mcp`  
-Follow OpenAI’s guide: **Connectors in ChatGPT**
+Follow OpenAI’s guide: [**Connectors in ChatGPT**](https://help.openai.com/en/articles/11487775-connectors-in-chatgpt)
 
 After configuring and restarting your client, you will be guided to authorize your 1mg account. This enables access to cart actions, order history, and payments.
 
